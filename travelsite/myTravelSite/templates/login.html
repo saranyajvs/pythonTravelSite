@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    input[type=text]  {
+
+  padding: 15px;
+  margin: 5px 0 22px 0;
+
+}
+</style>
+</head>
+<body>
+<h1> Login Here...</h1>
+<form method="POST" action="login">
+   {% csrf_token %}
+    <label for="username">User Name: </label>
+    <input type="text" name="username"  required>
+    <br>
+    <label for="password">password: </label>
+    <input type="password" name="password"  required>
+    <br>
+    <input type="submit" value="Login">
+</form>
+</body>
+</html>

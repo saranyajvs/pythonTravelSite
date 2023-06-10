@@ -1,0 +1,165 @@
+
+E:\>cd MyDjango
+
+E:\MyDjango>cd Project1
+
+E:\MyDjango\Project1>pip install virtualenvwrapper-win
+
+Collecting virtualenvwrapper-win
+  Downloading virtualenvwrapper_win-1.2.7-py3-none-any.whl (18 kB)
+Collecting virtualenv
+  Downloading virtualenv-20.21.0-py3-none-any.whl (8.7 MB)
+     ---------------------------------------- 8.7/8.7 MB 7.0 MB/s eta 0:00:00
+Collecting distlib<1,>=0.3.6
+  Downloading distlib-0.3.6-py2.py3-none-any.whl (468 kB)
+     ---------------------------------------- 468.5/468.5 kB 14.8 MB/s eta 0:00:00
+Collecting platformdirs<4,>=2.4
+  Downloading platformdirs-3.1.1-py3-none-any.whl (14 kB)
+Collecting filelock<4,>=3.4.1
+  Downloading filelock-3.9.0-py3-none-any.whl (9.7 kB)
+Installing collected packages: distlib, platformdirs, filelock, virtualenv, virtualenvwrapper-win
+Successfully installed distlib-0.3.6 filelock-3.9.0 platformdirs-3.1.1 virtualenv-20.21.0 virtualenvwrapper-win-1.2.7
+
+E:\MyDjango\Project1>mkvirtualenv env
+
+ C:\Users\91953\Envs is not a directory, creating
+created virtual environment CPython3.9.0.final.0-64 in 26917ms
+  creator CPython3Windows(dest=C:\Users\91953\Envs\env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\91953\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==23.0.1, setuptools==67.4.0, wheel==0.38.4
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+
+
+(env) E:\MyDjango\Project1>pip install django
+
+Collecting django
+  Downloading Django-4.1.7-py3-none-any.whl (8.1 MB)
+     ---------------------------------------- 8.1/8.1 MB 6.4 MB/s eta 0:00:00
+Collecting tzdata
+  Downloading tzdata-2022.7-py2.py3-none-any.whl (340 kB)
+     ---------------------------------------- 340.1/340.1 kB 22.0 MB/s eta 0:00:00
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.4.3-py3-none-any.whl (42 kB)
+     ---------------------------------------- 42.8/42.8 kB 2.0 MB/s eta 0:00:00
+Collecting asgiref<4,>=3.5.2
+  Downloading asgiref-3.6.0-py3-none-any.whl (23 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.6.0 django-4.1.7 sqlparse-0.4.3 tzdata-2022.7
+
+(env) E:\MyDjango\Project1>mkdir travelsite
+
+(env) E:\MyDjango\Project1>cd travelsite
+
+
+(env) E:\MyDjango\Project1\travelsite>django-admin startproject myTravelSite
+
+(env) E:\MyDjango\Project1\travelsite>cd myTravelSite
+
+
+(env) E:\MyDjango\Project1\travelsite\myTravelSite>python manage.py startapp myTravelapp
+
+(env) E:\MyDjango\Project1\travelsite\myTravelSite>python manage.py runserver
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 14, 2023 - 19:46:55
+Django version 4.1.7, using settings 'myTravelSite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[14/Mar/2023 19:47:12] "GET / HTTP/1.1" 200 10681
+[14/Mar/2023 19:47:12] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[14/Mar/2023 19:47:12] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[14/Mar/2023 19:47:12] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[14/Mar/2023 19:47:12] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[14/Mar/2023 19:47:12] "GET /favicon.ico HTTP/1.1" 404 2116
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
